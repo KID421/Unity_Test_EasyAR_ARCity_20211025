@@ -15,9 +15,8 @@ public class MainController : MonoBehaviour {
     public GameObject UIs;
     public GameObject arCam;
 
-
-
     public GameObject[] Building;
+    [HideInInspector]
     public GameObject InteractiveObj;
     public Vector2 FOVRange;
     public float ZoomSpeed = 0.2f;
